@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>cloer</title>
+    </head>
+    <body>
+        <div id="weather">
+            <span></span>
+            <span></span>
+        </div>
+        <header>
+            <form id="login-form">
+                <input type="text" placeholder="What is your name?" />
+            </form>
+            <h1 id="greeting" class="hidden"></h1>
+            <h2 id="clock">00 : 00 : 00</h2>
+        </header>
+        <main>
+            <div id="todo">
+                <div class="todo-header">
+                    <form id="todo-form">
+                        <input type="text" placeholder="✏️ What should you do?" required />
+                    </form>
+                </div>
+                <ul id="todo-list"></ul>
+            </div>
+        </main>
+        <footer>
+            <div id="quote">
+                <span></span>
+                <span></span>
+            </div>
+        </footer>
+
+        <script src="js/greeting.js" type="module"></script>
+        <!-- <script src="js/clock.js" type="module"></script> -->
+        <script src="js/quotes.js"></script>
+        <script src="js/background.js"></script>
+        <div id="bgOverlay" class="bg"></div>
+        <script src="js/todo.js"></script>
+        <script src="js/weather.js"></script>
+    </body>
+</html>
